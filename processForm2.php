@@ -6,7 +6,7 @@ $_SESSION['subTenKG'] = $_POST['subTenKG'];
 $_SESSION['overTenKG'] = $_POST['overTenKG'];
 
 
-header ("Location: finalStepphp");
+header ("Location: finalStep.php");
 exit()
 
 ?>

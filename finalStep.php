@@ -1,4 +1,5 @@
 <?php
+session_start();
 include("finalStepHeader.html");
 
 //translate the comments below into PHP code underneath each comment
@@ -17,8 +18,8 @@ echo "<BR>";
 
 // if the luggage session variable is on
 if($_SESSION['luggage'] == 1) {
-    echo "Bags under 10 KG: " . $_SESSION['enKGidSubT'];
-    echo "Bags over 10 KG: " . $_SESSION['idOverTenKG'];
+    echo "Bags under 10 KG: " . $_SESSION['subTenKG'];
+    echo "Bags over 10 KG: " . $_SESSION['overTenKG'];
   
     //echo the amount of bags under ten kilos the passenger is bringing
 }
